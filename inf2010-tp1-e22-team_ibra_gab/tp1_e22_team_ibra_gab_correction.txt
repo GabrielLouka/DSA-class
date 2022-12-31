@@ -1,0 +1,22 @@
+Correction team_ibra_gab
+Point :  6 / 6
+- PointOperator : 3 / 3 
+- Point2d :  3 / 3
+Translate devrait réutiliser PointOperator. Ajouter du code risque d'ajouter des erreurs. - 0.5 QC
+Constante X et Y sont données pour remplacer les numéros magiques de l'index 0 et 1. 
+
+Formes : 6 / 6
+- BaseShape :  3 / 3
+Plutôt que d'implémenter plusieurs boucles for qui font la même chose, il est possible d'utiliser addAll pour ajouter les coordonnés. - 0.5 QC
+- Ellipse :  1 / 1
+Minimiser l'utilisation de Math.pow puisque la complexité de celui-ci est élevé. 
+- Rectangle :   1 / 1
+- Square :  0.5 / 0.5
+- Circle :  0.5 / 0.5
+Le constructeur d'ellipse devrait couvrir ce cas. On devrait pas avoir de logique dans la classe Circle. - 0.5 QC
+
+Lettres :  5 / 5
+
+Qualité du code:  1.5 / 3
+
+Total : 6 + 6 + 5 + 1.5 = 18.5 / 20
